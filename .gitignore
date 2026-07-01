@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw data and generated artifacts
+datasets/
+RAG/documents/
+rag_storage/
+rag_output/
+*.pkl
+*.log
+
