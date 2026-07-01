@@ -37,14 +37,18 @@ GlobalGates는 수출입 기업과 전문가를 연결하는 B2B 서비스입니
 | 파일 | 내용 |
 | --- | --- |
 | `export_gap_analysis.ipynb` | 수출입 시장 구조와 중소기업 수출 격차 분석 |
-| `02_collect_naver_openapi.ipynb` | 네이버 OpenAPI 기반 쇼핑 데이터 수집 |
 | `globalgates_category_classifier.ipynb` | 게시글/상품/뉴스 텍스트 기반 카테고리 분류 모델 |
-| `globalgates_follower_recommender.ipynb` | 회원 bio와 관심 카테고리 기반 추천 실험 |
-| `globalgates_follower_recommender_profile_score.ipynb` | 프로필 완성도 점수를 반영한 추천 실험 |
-| `globalgates_translation_chat_post.ipynb` | 게시글/채팅 번역과 Redis 캐시 실험 |
-| `RAG/01_collect_trade_regulation_pdfs.ipynb` | 국가별 무역 규제 PDF 수집 |
-| `RAG/02_build_trade_regulation_rag_redis.ipynb` | PDF 문서 기반 Redis RAG 인덱스 생성 |
-| `03_query_trade_regulation_rag.ipynb` | 생성한 RAG 인덱스 질의 실험 |
+| `globalgates_follower_recommender_profile_score.ipynb` | 프로필 완성도 점수를 반영한 회원 추천 실험 |
+
+### 보조 실험 (외부 API·데이터 의존, 출력 미포함)
+
+아래 노트북은 네이버 OpenAPI 키, Redis, 수집한 PDF 등 외부 환경이 있어야 실행되며, 공개 저장소에는 출력 결과를 포함하지 않았습니다.
+
+- `02_collect_naver_openapi.ipynb` — 네이버 OpenAPI 기반 쇼핑 데이터 수집
+- `globalgates_translation_chat_post.ipynb` — 게시글/채팅 번역과 Redis 캐시 실험
+- `RAG/01_collect_trade_regulation_pdfs.ipynb` — 국가별 무역 규제 PDF 수집
+- `RAG/02_build_trade_regulation_rag_redis.ipynb` — PDF 문서 기반 Redis RAG 인덱스 생성
+- `03_query_trade_regulation_rag.ipynb` — 생성한 RAG 인덱스 질의 실험
 
 ## 결과 요약
 
